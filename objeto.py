@@ -1,4 +1,4 @@
-class objeto:
+class Objeto:
     def __init__(self,nombre,tipo):
 
         self.nombre = nombre

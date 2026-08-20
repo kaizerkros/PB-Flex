@@ -4,10 +4,10 @@ class Inventario:
     def __init__(self):
         self.objetos = []
     #metodo para agregar objeto 
-    def agregar_Objeto(self, objeto):
+    def agregar_objetos(self, objeto):
 
         self.objetos.append(objeto)
-        print(f"{objeto.nombrre} a sido agregado al inventario")
+        print(f"{objeto.nombre} a sido agregado al inventario")
 
     def mostrar_Inventario(self):
 
